@@ -8,7 +8,7 @@ function getCountryByIso3(isoCode){
     //Complete with your code
     for(var k in countries) {
         if(countries[k].iso3==isoCode){
-            return countries[k].name;
+            return countries[k]
         }
      }
 }
